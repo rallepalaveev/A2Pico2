@@ -4,7 +4,7 @@ This repository is the home of the A2Pico2 reference hardware based on the RP235
 
 ## Hardware Revision History
 
-Version 1.0 is the innitial design with a 74LVC07 inverting OC driver for some of the A2 lines. However it is obsolete as it is unnecessary to invert the lines, due to the RP2350 being capable to directly drive OC lines by keeping high impedance state and driving the lines as output "0" only when assetrion is needed.
+Version 1.0 is the innitial design with a 74LVC07 inverting OC driver for some of the A2 lines. However it is obsolete as it is unnecessary to invert the lines or use an OC driver, due to the RP2350 being capable to directly drive OC lines by keeping high impedance state and driving the lines as output "0" only when assetrion is needed.
 
 Version 1.1 is the current version.
 
