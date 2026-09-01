@@ -6481,12 +6481,6 @@
 		(uuid "aea67b5f-81af-4ba0-bbf3-b5a223472f18")
 	)
 	(junction
-		(at 248.92 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b54652b7-d298-48e0-adbd-f57242ccb38c")
-	)
-	(junction
 		(at 78.74 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7602,16 +7596,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 109.22) (xy 259.08 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2571e2-1503-4fcc-92ff-63ef0f882144")
-	)
-	(wire
-		(pts
 			(xy 248.92 109.22) (xy 248.92 107.95)
 		)
 		(stroke
@@ -7879,16 +7863,6 @@
 			(type default)
 		)
 		(uuid "834bc452-308c-4e5c-8c1c-19de45c2b344")
-	)
-	(wire
-		(pts
-			(xy 259.08 107.95) (xy 248.92 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "845af14d-aef3-4e74-8605-c0a8dc6cef11")
 	)
 	(wire
 		(pts
@@ -17076,72 +17050,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a01c9a76-32fb-4f06-9855-604a8b91b391")
-		(property "Reference" "#PWR046"
-			(at 259.08 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "037acc8e-aaa4-4df6-a791-c2a657147676")
-		)
-		(instances
-			(project "A2PICO2.v1.1"
-				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 34.29 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18093,84 +18001,6 @@
 			(project "A2PICO2.v1.1"
 				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 259.08 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1790360-7cfe-4ebe-a7c6-cf5e345a57e9")
-		(property "Reference" "C24"
-			(at 263.906 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100uF"
-			(at 260.35 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 259.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 259.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fd85f2e-a9fd-4b2f-b0c5-a68401ea6fd5")
-		)
-		(pin "2"
-			(uuid "8f6aa4b6-de79-4948-8bd5-78498ec4c0dc")
-		)
-		(instances
-			(project "A2PICO2.v1.1"
-				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
-					(reference "C24")
 					(unit 1)
 				)
 			)
