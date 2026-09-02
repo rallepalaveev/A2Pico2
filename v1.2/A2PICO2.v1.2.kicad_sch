@@ -12325,7 +12325,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "18pF"
 			(at 35.56 138.43 90)
 			(effects
 				(font
@@ -14023,7 +14023,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "18pF"
 			(at 35.56 128.27 90)
 			(effects
 				(font
