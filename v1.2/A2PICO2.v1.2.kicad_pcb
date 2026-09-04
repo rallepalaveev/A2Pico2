@@ -20327,7 +20327,7 @@
 			)
 		)
 	)
-	(gr_text "A2Pico2 v1.2 (c) 2026\nDesigned by Ralle Palaveev https://apple2.co.uk/\nConsept by Oliver Schmidt https://a2retro.de/\n"
+	(gr_text "A2Pico2 v1.2 (c) 2026\nDesigned by Ralle Palaveev https://apple2.co.uk/\nConcept by Oliver Schmidt https://a2retro.de/\n"
 		(at 180.1368 100.6094 0)
 		(layer "B.SilkS")
 		(uuid "c8499930-d296-492c-8a37-5cdf88ca91da")
@@ -20489,7 +20489,7 @@
 		)
 	)
 	(gr_text "BOOTSEL"
-		(at 177.0302 83.625 0)
+		(at 176.7078 83.9978 0)
 		(layer "F.SilkS")
 		(uuid "9c25d49c-e677-4536-b098-160288f2a0fa")
 		(effects
