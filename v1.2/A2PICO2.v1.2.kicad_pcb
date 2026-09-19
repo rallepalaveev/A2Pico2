@@ -4452,8 +4452,8 @@
 			(uuid "fcb20b2c-7bae-4648-92e4-c9f7440b6cb8")
 		)
 		(fp_line
-			(start 8.8 7.42)
-			(end -9.32 7.42)
+			(start 8.35 7.42)
+			(end -8.45 7.42)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4462,8 +4462,8 @@
 			(uuid "b75e950c-1e3d-4c0e-a49a-f793df3418f6")
 		)
 		(fp_line
-			(start 8.8 -8.82)
-			(end 8.8 7.42)
+			(start 8.35 -8.82)
+			(end 8.35 7.42)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4472,8 +4472,8 @@
 			(uuid "4b3c23eb-8648-43b0-84eb-59926fc7ba86")
 		)
 		(fp_line
-			(start -9.32 7.42)
-			(end -9.32 -8.82)
+			(start -8.45 7.42)
+			(end -8.45 -8.82)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4482,8 +4482,8 @@
 			(uuid "44cbb589-bab7-4275-9a7b-d76f79d90ba4")
 		)
 		(fp_line
-			(start -9.32 -8.82)
-			(end 8.8 -8.82)
+			(start -8.45 -8.82)
+			(end 8.35 -8.82)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -20362,7 +20362,7 @@
 			)
 		)
 	)
-	(gr_text "A2PICO2.v1.2 (c) 2026 by Ralle Palaveev, https://apple2.co.uk/"
+	(gr_text "A2Pico2.v1.2 (c) 2026 by Ralle Palaveev, https://apple2.co.uk/"
 		(at 148.3868 109.6518 0)
 		(layer "F.SilkS")
 		(uuid "557541bd-b611-47e0-a729-84b46c73c697")
